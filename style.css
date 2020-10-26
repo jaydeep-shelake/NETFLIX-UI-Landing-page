@@ -172,7 +172,7 @@ section{
     width: 100%;
     height: 65px;
     background: #303030;
-    margin: 20px;
+    margin-top: 20px;
     justify-content: flex-start;
     font-size: 1.4rem;
     padding-left: 20px;
@@ -187,10 +187,9 @@ section{
 }
 .question span{
     width: 10%;
-    
-    
-    
-    
+}
+.sec-5{
+    width: 100%;
 }
 .ans{
     display: none;
@@ -249,5 +248,24 @@ section{
     .sec-3 .img img{
         width: 100%;
         height: 100%;
+    }
+}
+@media(max-width:525px){
+    .main-text{
+        width: 100%;
+    }
+    .email-input{
+        flex-direction: column;
+    }
+    .email-input input {
+      width: 90%;
+    }
+    .email-input .btn{
+        display: block;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    .questions{
+        width: 90%;
     }
 }
