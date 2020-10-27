@@ -190,6 +190,7 @@ section{
 }
 .sec-5{
     width: 100%;
+    padding-bottom: 4rem;
 }
 .ans{
     display: none;
@@ -208,6 +209,122 @@ section{
     
     
 }
+.text{
+    flex-direction: column;
+    margin-top: 8%;
+    width: 100%;
+    text-align: center;
+}
+.text .email-input{
+    width: 70%;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 10px;
+    background: black;
+    padding: 7% 7%;
+    color: #757575; 
+    flex-direction:column ;
+
+    
+}
+footer .div{
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+.div p{
+    padding-left: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.all-items{
+    
+    align-items: flex-start !important;
+    
+}
+footer ul{
+    list-style: none;
+    margin: 0  2rem;
+}
+footer ul li{
+    padding: 7px;
+}
+footer a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 13px;
+}
+footer a:hover{
+    border-bottom: 1px solid #757575;
+}
+.india{
+    padding: 5%;
+    width: 90%;
+    align-items: flex-start !important;
+}
+.india p{
+    width: 100%;
+}
+
+/* login page */
+
+.from{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 3%;
+    padding-bottom: 10%;
+    
+}
+.from form{
+    width: 100%;
+    flex-direction: column;
+}
+.from input{
+    background:#333;
+    width: 90%;
+    padding: 1.2rem 0.6rem;
+    border-radius: 4px;
+    margin: 10px;
+    outline: none;
+    border: none;
+}
+.from input::placeholder{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding-left: 15px;
+}
+.from h1{
+    padding: 20px 0;
+    align-self: flex-start;
+    padding-left: 40px;
+}
+.from .btn{
+ border: none;
+ width: 90%;
+ margin-top: 30px;
+ padding: 1rem 0;
+}
+.else{
+    width: 90%;
+    font-size: 14px;
+    color: rgb(167, 167, 167);
+}
+.else .in{
+ width: 50%;
+ text-align: start;
+}
+.in input{
+    background: #737373 !important;
+}
+.help{
+    width: 50%;
+    text-align: end;
+}
+
 @media(max-width:916px){
     .container{
         height: auto;
@@ -250,6 +367,29 @@ section{
         height: 100%;
     }
 }
+@media(max-width:718px){
+    .from{
+        width: 100%;
+        background: black;
+        
+    }
+    .container{
+        background-image: none;
+        background: black;
+    }
+    .from input{
+        width: 95%;
+    }
+    .from .btn{
+        width: 95%;
+    }
+    .from h1{
+        padding-left: 20px;
+    }
+    .else{
+        width: 95%;
+    }
+}
 @media(max-width:525px){
     .main-text{
         width: 100%;
@@ -267,5 +407,27 @@ section{
     }
     .questions{
         width: 90%;
+    }
+    .ul-1,.ul-2{
+        flex-direction: column;
+    }
+    html{
+        font-size: 80.25%;
+    }
+    .all-items{
+        text-align: justify;
+    }
+    .ul-1,.ul-2{
+        align-items: flex-start !important;
+    }
+    .navbar img{
+        width: 100px;
+        height: 30px;
+    }
+    .logo{
+        padding: 0 1rem;
+    }
+    .signup{
+        margin-right: 22px;
     }
 }
