@@ -16,7 +16,7 @@
 ## 📸 Screenshots
 <img src="home.png" width='400' height='auto'>
 
-## singup page
+## Signup page
 <img src="signup.png" width='600' height='auto'>
 
 link:https://jaydeep-shelake.github.io/NETFLIX-UI-Landing-page/
